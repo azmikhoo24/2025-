@@ -61,3 +61,15 @@ sentence_count = text.count(".") + text.count("!") + text.count("?")
 print("Character count:", char_count)
 print("Word count:", word_count)
 print("Sentence count:", sentence_count)
+
+
+#Solution from Zarul
+#char_count = len(text)
+#char_count_no_spaces = len(text.replace(' ', ''))
+#word_count = len(text.split())
+#sentence_count = text.count('.') + text.count('!') + text.count('?')
+
+#rint(f"Character count (including spaces): {char_count}")            # 239
+#print(f"Character count (excluding spaces): {char_count_no_spaces}")  # 204
+#print(f"Word count: {word_count}")                                    # 38
+#print(f"Sentence count: {sentence_count}")                            # 5
